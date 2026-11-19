@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Durgesh Randive | Aspiring Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background Blobs -->
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon">D</span>
+                <span class="logo-text">Durgesh<span class="logo-dot">.</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+            </button>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge" data-aos="fade-up">
+                    <span class="badge-emoji">🎓</span>
+                    B.Tech CSE Student · Class of 2028
+                </div>
+                <h1 class="hero-title" data-aos="fade-up">
+                    Hello, I'm
+                    <span class="hero-name">Durgesh Randive</span>
+                </h1>
+                <div class="hero-role-wrapper" data-aos="fade-up">
+                    <span class="hero-role-prefix">An</span>
+                    <span class="hero-role" id="typingRole">Aspiring Software Engineer</span>
+                    <span class="typing-cursor">|</span>
+                </div>
+                <p class="hero-description" data-aos="fade-up">
+                    I'm a passionate Computer Science student who loves building modern web 
+                    applications with the <strong>MERN Stack</strong>. I enjoy turning ideas into 
+                    reality through code and constantly learning new technologies.
+                </p>
+                <div class="hero-actions" data-aos="fade-up">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>See My Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="Durgesh Resume.pdf" class="btn btn-glass" download>
+                        <i class="fas fa-download"></i>
+                        <span>Download Resume</span>
+                    </a>
+                </div>
+                <div class="hero-social" data-aos="fade-up">
+                    <a href="https://github.com/patildurgesh4455" target="_blank" class="social-pill">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/durgesh-randive-84876937a" target="_blank" class="social-pill">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:patildurgesh4455@gmail.com" class="social-pill">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+                
+            </div>
+            <div class="hero-visual" data-aos="zoom-in">
+                <div class="hero-illustration">
+                    <div class="orbit-ring orbit-1">
+                        <div class="orbit-icon"><i class="fab fa-react"></i></div>
+                    </div>
+                    <div class="orbit-ring orbit-2">
+                        <div class="orbit-icon"><i class="fab fa-node-js"></i></div>
+                    </div>
+                    <div class="orbit-ring orbit-3">
+                        <div class="orbit-icon"><i class="fab fa-js-square"></i></div>
+                    </div>
+                    <div class="center-avatar">
+                        <span>DR</span>
+                    </div>
+                </div>
+                <div class="floating-cards">
+                    <div class="float-card card-1">
+                        <i class="fas fa-code"></i>
+                        <span>200+ DSA</span>
+                    </div>
+                    <div class="float-card card-2">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>4+ Projects</span>
+                    </div>
+                    <div class="float-card card-3">
+                        <i class="fas fa-star"></i>
+                        <span>MERN Stack</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-user-circle"></i> About Me</span>
+                <h2 class="section-title">Passionate about <span class="highlight">Code & Creation</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-content" data-aos="fade-right">
+                    <div class="about-intro">
+                        <div class="intro-emoji">👋</div>
+                        <p>
+                            Hey there! I'm <strong>Durgesh Pradip Randive</strong>, a B.Tech Computer Science 
+                            student with a deep passion for software development. I'm on a mission to become 
+                            a skilled software engineer, one project at a time.
+                        </p>
+                    </div>
+                    <p class="about-text">
+                        I specialize in the <strong>MERN Stack</strong> — MongoDB, Express.js, React.js, and Node.js — 
+                        along with modern tools like <strong>TypeScript</strong>, <strong>Next.js</strong>, and 
+                        <strong>Tailwind CSS</strong> to build fast, beautiful web applications.
+                    </p>
+                    <p class="about-text">
+                        I also have a strong foundation in <strong>Data Structures & Algorithms</strong> using C++, 
+                        which helps me write efficient, optimized code. I believe in learning by building 
+                        and love taking on challenging projects!
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🚀</div>
+                            <div>
+                                <strong>Quick Learner</strong>
+                                <p>Always exploring new technologies and frameworks</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🤝</div>
+                            <div>
+                                <strong>Team Player</strong>
+                                <p>Love collaborating and sharing knowledge</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">💡</div>
+                            <div>
+                                <strong>Problem Solver</strong>
+                                <p>200+ DSA problems solved and counting</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+                            <span class="stat-number" data-count="2">0</span>
+                            <span class="stat-label">Projects Built</span>
+                        </div>
+                        <div class="stat-card featured">
+                            <div class="stat-icon"><i class="fas fa-code"></i></div>
+                            <span class="stat-number" data-count="200">0</span>
+                            <span class="stat-label">DSA Problems</span>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-layer-group"></i></div>
+                            <span class="stat-number" data-count="8">0</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+                            <span class="stat-number" data-count="5">0</span>
+                            <span class="stat-label">Certificates</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-tools"></i> Tech Stack</span>
+                <h2 class="section-title">Skills & <span class="highlight">Technologies</span></h2>
+            </div>
+
+            <!-- Skills Marquee -->
+            <div class="skills-marquee" data-aos="fade-up">
+                <div class="marquee-track">
+                    <div class="marquee-item"><i class="fab fa-react"></i> React</div>
+                    <div class="marquee-item"><i class="fab fa-node-js"></i> Node.js</div>
+                    <div class="marquee-item"><i class="fab fa-js-square"></i> JavaScript</div>
+                    <div class="marquee-item"><i class="fas fa-database"></i> MongoDB</div>
+                    <div class="marquee-item"><i class="fab fa-css3-alt"></i> Tailwind</div>
+                    <div class="marquee-item"><i class="fab fa-html5"></i> HTML5</div>
+                    <div class="marquee-item"><i class="fab fa-git-alt"></i> Git</div>
+                    <div class="marquee-item"><i class="fas fa-copyright"></i> C++</div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="marquee-item"><i class="fab fa-react"></i> React</div>
+                    <div class="marquee-item"><i class="fab fa-node-js"></i> Node.js</div>
+                    <div class="marquee-item"><i class="fab fa-js-square"></i> JavaScript</div>
+                    <div class="marquee-item"><i class="fas fa-database"></i> MongoDB</div>
+                    <div class="marquee-item"><i class="fab fa-css3-alt"></i> Tailwind</div>
+                    <div class="marquee-item"><i class="fab fa-html5"></i> HTML5</div>
+                    <div class="marquee-item"><i class="fab fa-git-alt"></i> Git</div>
+                    <div class="marquee-item"><i class="fas fa-copyright"></i> C++</div>
+                </div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-card-header">
+                        <div class="skill-emoji">🎨</div>
+                        <h3>Frontend</h3>
+                        <p>Building beautiful interfaces</p>
+                    </div>
+                    <div class="skill-chips">
+                        <span class="chip"><i class="fab fa-react"></i> React.js</span>
+                        <span class="chip"><i class="fab fa-react"></i> Next.js</span>
+                        <span class="chip"><i class="fab fa-js-square"></i> TypeScript</span>
+                        <span class="chip"><i class="fab fa-js-square"></i> JavaScript</span>
+                        <span class="chip"><i class="fab fa-css3-alt"></i> Tailwind CSS</span>
+                        <span class="chip"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="chip"><i class="fab fa-css3-alt"></i> CSS3</span>
+                    </div>
+                </div>
+                <!-- Backend -->
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-card-header">
+                        <div class="skill-emoji">⚙️</div>
+                        <h3>Backend</h3>
+                        <p>Powering the server side</p>
+                    </div>
+                    <div class="skill-chips">
+                        <span class="chip"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="chip"><i class="fab fa-node-js"></i> Express.js</span>
+                        <span class="chip"><i class="fas fa-database"></i> MongoDB</span>
+                        <span class="chip"><i class="fas fa-plug"></i> REST APIs</span>
+                    </div>
+                </div>
+                <!-- DSA -->
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-card-header">
+                        <div class="skill-emoji">🧠</div>
+                        <h3>DSA & Programming</h3>
+                        <p>Problem solving & logic</p>
+                    </div>
+                    <div class="skill-chips">
+                        <span class="chip"><i class="fas fa-copyright"></i> C++</span>
+                        <span class="chip"><i class="fas fa-sitemap"></i> Data Structures</span>
+                        <span class="chip"><i class="fas fa-project-diagram"></i> Algorithms</span>
+                        <span class="chip"><i class="fas fa-trophy"></i> Competitive Programming</span>
+                    </div>
+                </div>
+                <!-- Tools -->
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-card-header">
+                        <div class="skill-emoji">🛠️</div>
+                        <h3>Tools & Platforms</h3>
+                        <p>Everyday development tools</p>
+                    </div>
+                    <div class="skill-chips">
+                        <span class="chip"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                        <span class="chip"><i class="fas fa-terminal"></i> VS Code</span>
+                        <span class="chip"><i class="fas fa-cloud"></i> Vercel</span>
+                        <span class="chip"><i class="fas fa-terminal"></i> Postman</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-rocket"></i> My Work</span>
+                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                <p class="section-subtitle">Each project is a learning journey. Here are some I'm proud of.</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: WanderLust -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image" style="--accent: #6366F1;">
+                        <div class="project-icon-wrapper">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <span class="project-number">01</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                            <span>EJS</span>
+                        </div>
+                        <h3>WanderLust – Travel Listings Hub</h3>
+                        <p>A full-stack travel listing app where users can browse, create, edit, and review travel destinations with authentication, image uploads, and interactive maps.</p>
+                        <div class="project-links">
+                            <a href="https://wanderlust-hub-app.onrender.com/listings" target="_blank" class="proj-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/patildurgesh4455" target="_blank" class="proj-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2: Spotify Clone -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image" style="--accent: #1DB954;">
+                        <div class="project-icon-wrapper">
+                            <i class="fab fa-spotify"></i>
+                        </div>
+                        <span class="project-number">02</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <h3>Spotify Clone – Music Player UI</h3>
+                        <p>A front-end clone of Spotify's sleek music player interface with play/pause controls, song lists, progress bar, and a fully responsive design.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/patildurgesh4455" target="_blank" class="proj-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3: TraceBack -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image" style="--accent: #F59E0B;">
+                        <div class="project-icon-wrapper">
+                            <i class="fas fa-search-location"></i>
+                        </div>
+                        <span class="project-number">03</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                            <span>EJS</span>
+                        </div>
+                        <h3>TraceBack – Lost & Found Platform</h3>
+                        <p>A full-stack lost-and-found web app where users can report lost items, post found items, and browse listings. Features secure authentication, CRUD operations, and search & filtering.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/patildurgesh4455" target="_blank" class="proj-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4: EcoVerse -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image" style="--accent: #22C55E;">
+                        <div class="project-icon-wrapper">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <span class="project-number">04</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                            <span>REST APIs</span>
+                        </div>
+                        <h3>EcoVerse – Environmental Awareness Platform</h3>
+                        <p>A web platform promoting sustainable living through eco-friendly tips, awareness content, and community engagement. Built with reusable components and REST APIs.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/patildurgesh4455" target="_blank" class="proj-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-graduation-cap"></i> Education</span>
+                <h2 class="section-title">My Learning <span class="highlight">Journey</span></h2>
+            </div>
+            <div class="edu-grid">
+                <div class="edu-card current" data-aos="fade-up">
+                    <div class="edu-card-accent"></div>
+                    <div class="edu-badge">🎓 Currently Pursuing</div>
+                    <h3>B.Tech in Computer Science & Engineering</h3>
+                    <p class="edu-institution"><i class="fas fa-university"></i> Pillai College of Engineering, Mumbai University</p>
+                    <p class="edu-date"><i class="fas fa-calendar-alt"></i> 2024 – 2028 (Expected)</p>
+                    <p class="edu-desc">
+                        Studying core CS subjects — Data Structures, Algorithms, DBMS, OS, 
+                        Software Engineering. Active in coding clubs and hackathons.
+                    </p>
+                    <div class="edu-tags">
+                        <span>DSA</span>
+                        <span>DBMS</span>
+                        <span>OS</span>
+                        <span>OOP</span>
+                    </div>
+                </div>
+                <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="edu-card-accent"></div>
+                    <div class="edu-badge">📚 Completed</div>
+                    <h3>Higher Secondary (12th – Science)</h3>
+                    <p class="edu-institution"><i class="fas fa-school"></i> SSVPS's Late Karmaveer Dr. P. R. Ghogrey Science College, Dhule</p>
+                    <p class="edu-date"><i class="fas fa-calendar-alt"></i> 2022 – 2024</p>
+                    <p class="edu-desc">
+                        Completed HSC with Science (PCM). Built a strong foundation in 
+                        Mathematics, Physics, and Chemistry.
+                    </p>
+                    <div class="edu-tags">
+                        <span>Physics</span>
+                        <span>Chemistry</span>
+                        <span>Mathematics</span>
+                    </div>
+                </div>
+                <div class="edu-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="edu-card-accent"></div>
+                    <div class="edu-badge">💻 Self-Learning</div>
+                    <h3>Full-Stack Web Development</h3>
+                    <p class="edu-institution"><i class="fas fa-globe"></i> Online Courses & Self-Study</p>
+                    <p class="edu-desc">
+                        Mastered the MERN Stack, TypeScript, Next.js, and Tailwind CSS through 
+                        hands-on projects and continuous practice.
+                    </p>
+                    <div class="edu-tags">
+                        <span>MERN</span>
+                        <span>Next.js</span>
+                        <span>TypeScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag"><i class="fas fa-paper-plane"></i> Get in Touch</span>
+                <h2 class="section-title">Let's <span class="highlight">Connect</span></h2>
+                <p class="section-subtitle">
+                    Whether it's an internship opportunity, a project collaboration, or just a tech chat — I'd love to hear from you!
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card-big">
+                        <div class="contact-card-big-icon">💬</div>
+                        <h3>Let's Talk!</h3>
+                        <p>I'm always excited to connect with fellow developers, recruiters, and tech enthusiasts.</p>
+                    </div>
+                    <div class="contact-links">
+                        <a href="mailto:patildurgesh4455@gmail.com" class="contact-link-item">
+                            <div class="cl-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <strong>Email</strong>
+                                <span>patildurgesh4455@gmail.com</span>
+                            </div>
+                            <i class="fas fa-arrow-right cl-arrow"></i>
+                        </a>
+                        <a href="https://github.com/patildurgesh4455" target="_blank" class="contact-link-item">
+                            <div class="cl-icon"><i class="fab fa-github"></i></div>
+                            <div>
+                                <strong>GitHub</strong>
+                                <span>github.com/patildurgesh4455</span>
+                            </div>
+                            <i class="fas fa-arrow-right cl-arrow"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/durgesh-randive-84876937a" target="_blank" class="contact-link-item">
+                            <div class="cl-icon"><i class="fab fa-linkedin-in"></i></div>
+                            <div>
+                                <strong>LinkedIn</strong>
+                                <span>linkedin.com/in/durgesh-randive</span>
+                            </div>
+                            <i class="fas fa-arrow-right cl-arrow"></i>
+                        </a>
+                        <div class="contact-link-item location">
+                            <div class="cl-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <strong>Location</strong>
+                                <span>India 🇮🇳</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <h3 class="form-title">Send me a message ✉️</h3>
+                   
+<form action="https://formsubmit.co/5587776fe9cf433f9beeca9c4263ddbd" method="POST">
+
+    <input type="hidden" name="_subject" value="New Portfolio Contact Message!">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="text" name="_honey" style="display:none">
+
+    <div class="form-row">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"
+                placeholder="Your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"
+                placeholder="you@email.com" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject"
+            placeholder="Internship, Collaboration, etc." required>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"
+            placeholder="Hi Durgesh, I'd like to discuss..."
+            required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-full">
+        <span>Send Message</span>
+        <i class="fas fa-paper-plane"></i>
+    </button>
+
+</form>
+
+                </div>
+                <!-- Project 3: TraceBack -->
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Banner -->
+    <section class="resume-banner" data-aos="fade-up">
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-icon">📄</div>
+                <div class="banner-text">
+                    <h3>Want the full picture?</h3>
+                    <p>Download my resume for a detailed overview of my skills, projects, and education.</p>
+                </div>
+                <a href="Durgesh Resume.pdf" class="btn btn-primary" download>
+                    <i class="fas fa-file-pdf"></i>
+                    <span>Download Resume</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon small">D</span>
+                    <span>Durgesh Randive</span>
+                </div>
+                <p class="footer-text">
+                    Built with ❤️ and lots of ☕ by Durgesh Randive
+                </p>
+                <div class="footer-social">
+                    <a href="https://github.com/patildurgesh4455" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/durgesh-randive-84876937a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:patildurgesh4455@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p class="footer-copy">&copy; 2026 Durgesh Randive · All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
